@@ -1,6 +1,6 @@
 [package]
 name = "vigenere-demo"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["ShaoG shaog.rs@gmail.com"]
 description = "优雅的维吉尼亚密码实现，采用泛型设计，支持自定义字符集"

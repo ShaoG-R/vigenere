@@ -94,7 +94,7 @@ impl StringCipher {
     /// 
     /// # 示例
     /// ```
-    /// use vigenere::StringCipher;
+    /// use vigenere_demo::StringCipher;
     /// 
     /// let cipher = StringCipher::new("ABCDEFGHIJKLMNOPQRSTUVWXYZ").unwrap();
     /// ```
@@ -172,7 +172,7 @@ impl StringCipher {
     /// 
     /// # 示例
     /// ```
-    /// use vigenere::StringCipher;
+    /// use vigenere_demo::StringCipher;
     /// 
     /// let cipher = StringCipher::uppercase_alpha();
     /// let encrypted = cipher.encrypt("HELLO", "KEY").unwrap();
@@ -212,7 +212,7 @@ impl StringCipher {
     /// 
     /// # 示例
     /// ```
-    /// use vigenere::StringCipher;
+    /// use vigenere_demo::StringCipher;
     /// 
     /// let cipher = StringCipher::uppercase_alpha();
     /// let decrypted = cipher.decrypt("RIJVS", "KEY").unwrap();

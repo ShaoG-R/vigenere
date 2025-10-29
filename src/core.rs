@@ -36,7 +36,7 @@ pub trait CipherElement: Clone + Debug {
 /// 
 /// # 示例
 /// ```
-/// use vigenere::{CharElement, VigenereCipher};
+/// use vigenere_demo::{CharElement, VigenereCipher, NonEmptyVec};
 /// 
 /// // 创建字符元素字符集
 /// let charset: Vec<CharElement> = "ABC"
@@ -45,7 +45,7 @@ pub trait CipherElement: Clone + Debug {
 ///     .map(|(i, c)| CharElement::new(c, i))
 ///     .collect();
 /// 
-/// let cipher = VigenereCipher::new(charset).unwrap();
+/// let cipher = VigenereCipher::new(NonEmptyVec::try_from_vec(charset).unwrap());
 /// assert_eq!(cipher.modulus(), 3);
 /// ```
 #[derive(Debug, Clone)]
