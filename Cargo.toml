@@ -1,6 +1,23 @@
 [package]
-name = "Vigenere"
+name = "vigenere-demo"
 version = "0.1.0"
 edition = "2024"
+authors = ["ShaoG shaog.rs@gmail.com"]
+description = "优雅的维吉尼亚密码实现，采用泛型设计，支持自定义字符集"
+license = "MIT"
+repository = "https://github.com/ShaoG-R/vigenere"
+keywords = ["cryptography", "vigenere", "cipher", "encryption", "generic"]
+categories = ["cryptography", "algorithms", "encoding"]
+readme = "README.md"
+homepage = "https://github.com/ShaoG-R/vigenere"
+
+[lib]
+name = "vigenere_demo"
+path = "src/lib.rs"
+
+[[bin]]
+name = "vigenere"
+path = "src/main.rs"
 
 [dependencies]
+nonempty_tools = "0.1.0"

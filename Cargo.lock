@@ -3,5 +3,14 @@
 version = 4
 
 [[package]]
-name = "Vigenere"
+name = "nonempty_tools"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "70b1ac31b38e99d3867f167509b51ea698b88ee48e327a98e2868e8c9149a589"
+
+[[package]]
+name = "vigenere-demo"
+version = "0.1.0"
+dependencies = [
+ "nonempty_tools",
+]
