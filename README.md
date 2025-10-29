@@ -1,5 +1,11 @@
 # 维吉尼亚密码（Vigenere Cipher）
 
+[![Rust](https://img.shields.io/badge/rust-1.80%2B-orange.svg)](https://www.rust-lang.org/)
+[![Crates.io](https://img.shields.io/crates/v/vigenere-demo.svg)](https://crates.io/crates/vigenere-demo)
+[![Documentation](https://docs.rs/vigenere-demo/badge.svg)](https://docs.rs/vigenere-demo)
+[![Downloads](https://img.shields.io/crates/d/vigenere-demo.svg)](https://crates.io/crates/vigenere-demo)
+[![License](https://img.shields.io/crates/l/vigenere-demo.svg)](https://github.com/ShaoG-R/vigenere#license)
+
 一个优雅的维吉尼亚密码实现，采用泛型设计，支持自定义字符集。
 
 **核心特性**：使用类型系统在**编译期**保证字符集和密钥非空，而非运行时检查。
